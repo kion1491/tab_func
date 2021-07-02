@@ -1,4 +1,4 @@
-var testFunc = function(){
+var tabEvtFunc = function(){
     var tabLi = $("ul.tab_button li"),
         tabCont = $(".tab_cont");
 
@@ -35,7 +35,7 @@ var testFunc = function(){
     }
 }();
 
-testFunc.init()
+tabEvtFunc.init()
 
 
 
