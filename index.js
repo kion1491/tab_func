@@ -16,13 +16,13 @@ var tabEvtFunc = function(){
             var tabCont = tabUl.siblings('div.tab_cont_wrap').children('div.tab_cont');
 
             tabCont.removeClass('on');
-            
+
             if(tabUl.children('li').eq(i).hasClass('on')){
                 tabCont.eq(i).addClass('on')
                 return true
             }
         }
-    }
+    } 
     function tabLiClickFunc(){
         tabLi.on("click",function(){
             tabLiToggle($(this))
